@@ -1,0 +1,57 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/shen/.ohos/config/default_NativeXComponent_5G3sCFPEW4GqGh10UIAyEp8qMwqEgKVlzRpZYboWtnQ=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AA21A73CAC9D6712DD8DBA165BCAD6A7BFDBA3883F015471120AE6EF3C40F00D1484D7A88A7B5",
+          "profile": "/Users/shen/.ohos/config/default_NativeXComponent_5G3sCFPEW4GqGh10UIAyEp8qMwqEgKVlzRpZYboWtnQ=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/shen/.ohos/config/default_NativeXComponent_5G3sCFPEW4GqGh10UIAyEp8qMwqEgKVlzRpZYboWtnQ=.p12",
+          "storePassword": "0000001A6EF700B2CBEE318C7C7CA9767B77A21CE095DF18D0BA274BFA3F841B467BEA6DED901A4B1334"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "nativeCompiler": "BiSheng",
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
