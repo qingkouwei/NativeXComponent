@@ -36,7 +36,7 @@
 
 本项目配有详尽的系列开发文档，涵盖了从基础环境搭建到核心渲染算法的各个方面：
 
-- **核心教程**：[HarmonyOS 6：基于 OpenGL 的 Native 绘图详解](docs/HarmonyOS_6_OpenGL_Drawing.md)
+- **核心教程**：
   - 涵盖 OpenGL/EGL API 深潜
   - 筝形分解法数学原理
   - 渲染管线逐行代码拆解
@@ -49,4 +49,4 @@
 
 ## 许可证
 
-本项目遵循 Apache License 2.0。
+本项目遵循 MIT 许可证。
